@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,61 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempAusgabe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPQ-qe-sVq">
+                                <rect key="frame" x="245" y="146" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HumAusgabe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQv-SK-pvQ">
+                                <rect key="frame" x="248" y="299" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TempIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Tpv-Kf-bla">
+                                <rect key="frame" x="265" y="67" width="71" height="71"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HumIcon" translatesAutoresizingMaskIntoConstraints="NO" id="IS5-xJ-0Vk">
+                                <rect key="frame" x="265" y="220" width="71" height="71"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dk-Gp-4CK">
+                                <rect key="frame" x="268" y="386" width="65" height="65"/>
+                                <state key="normal" image="RefreshIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="refreshData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZCf-SV-1WP"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="mPQ-qe-sVq" secondAttribute="centerY" constant="143.5" id="70p-bt-i1a"/>
+                            <constraint firstAttribute="centerY" secondItem="Tpv-Kf-bla" secondAttribute="centerY" constant="197.5" id="FNh-GR-rtO"/>
+                            <constraint firstAttribute="centerY" secondItem="0dk-Gp-4CK" secondAttribute="centerY" constant="-118.5" id="HxC-Xk-SxT"/>
+                            <constraint firstItem="mPQ-qe-sVq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LtH-qu-6ud"/>
+                            <constraint firstAttribute="centerY" secondItem="gQv-SK-pvQ" secondAttribute="centerY" constant="-9.5" id="TSj-f8-hiv"/>
+                            <constraint firstItem="0dk-Gp-4CK" firstAttribute="centerX" secondItem="gQv-SK-pvQ" secondAttribute="centerX" id="gwz-oA-Rlv"/>
+                            <constraint firstItem="Tpv-Kf-bla" firstAttribute="leading" secondItem="IS5-xJ-0Vk" secondAttribute="leading" id="prd-8n-Zqv"/>
+                            <constraint firstItem="mPQ-qe-sVq" firstAttribute="centerX" secondItem="Tpv-Kf-bla" secondAttribute="centerX" id="vA7-IM-Dqk"/>
+                            <constraint firstItem="gQv-SK-pvQ" firstAttribute="centerX" secondItem="IS5-xJ-0Vk" secondAttribute="centerX" id="xKc-1T-t23"/>
+                            <constraint firstAttribute="centerY" secondItem="IS5-xJ-0Vk" secondAttribute="centerY" constant="44.5" id="xox-as-aeZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="humLabel" destination="gQv-SK-pvQ" id="EQ8-y3-04B"/>
+                        <outlet property="tempLabel" destination="mPQ-qe-sVq" id="gab-zJ-e0Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="HumIcon" width="71" height="71"/>
+        <image name="RefreshIcon" width="65" height="65"/>
+        <image name="TempIcon" width="71" height="71"/>
+    </resources>
 </document>

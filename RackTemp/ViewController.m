@@ -8,21 +8,45 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
+
+@synthesize tempLabel,humLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ipcon_create(&ipcon);
-    ipcon_connect(&ipcon, "10.0.0.227", 4223);
+    [self getData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)refreshData:(id)sender {
+    [self getData];
+}
+
+- (void)getData
+{
+    ipcon_create(&ipcon);
+    temperature_create(&temp, "bUq", &ipcon);
+    humidity_create(&hum, "a8m", &ipcon);
+    ipcon_connect(&ipcon, "10.0.0.227", 4223);
+    
+    int16_t temperature;
+    uint16_t humidity;
+    
+    temperature_get_temperature(&temp, &temperature);
+    humidity_get_humidity(&hum, &humidity);
+    
+    NSString *tempString = [NSString stringWithFormat:@"%.2f",temperature/100.0];
+    NSString *humString = [NSString stringWithFormat:@"%.2f",humidity/10.0];
+    
+    tempLabel.text = tempString;
+    humLabel.text = humString;
+    
+    NSLog(@"temp: %.2f",temperature/100.0);
+    NSLog(@"hum: %.2f",humidity/10.0);
+    
+    ipcon_destroy(&ipcon);
+}
 @end

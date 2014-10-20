@@ -8,11 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #include "ip_connection.h"
+#include "bricklet_temperature.h"
+#include "bricklet_humidity.h"
 
 @interface ViewController : UIViewController
 {
     IPConnection ipcon;
+    Temperature temp;
+    Humidity hum;
 }
+
+@property (weak, nonatomic) IBOutlet UILabel *tempLabel;
+@property (weak, nonatomic) IBOutlet UILabel *humLabel;
 
 @end
 
