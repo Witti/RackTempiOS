@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "ip_connection.h"
 
 @interface ViewController : UIViewController
-
+{
+    IPConnection ipcon;
+}
 
 @end
 

@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    ipcon_create(&ipcon);
+    ipcon_connect(&ipcon, "10.0.0.227", 4223);
 }
 
 - (void)didReceiveMemoryWarning {

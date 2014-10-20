@@ -14,6 +14,108 @@
 		650BEC0119F5A87D002EBD14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650BEC0019F5A87D002EBD14 /* Images.xcassets */; };
 		650BEC0419F5A87D002EBD14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650BEC0219F5A87D002EBD14 /* LaunchScreen.xib */; };
 		650BEC1019F5A87D002EBD14 /* RackTempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC0F19F5A87D002EBD14 /* RackTempTests.m */; };
+		650BEC7F19F5A8A3002EBD14 /* brick_dc.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1A19F5A8A3002EBD14 /* brick_dc.c */; };
+		650BEC8019F5A8A3002EBD14 /* brick_dc.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1A19F5A8A3002EBD14 /* brick_dc.c */; };
+		650BEC8119F5A8A3002EBD14 /* brick_imu.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1C19F5A8A3002EBD14 /* brick_imu.c */; };
+		650BEC8219F5A8A3002EBD14 /* brick_imu.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1C19F5A8A3002EBD14 /* brick_imu.c */; };
+		650BEC8319F5A8A3002EBD14 /* brick_master.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1E19F5A8A3002EBD14 /* brick_master.c */; };
+		650BEC8419F5A8A3002EBD14 /* brick_master.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC1E19F5A8A3002EBD14 /* brick_master.c */; };
+		650BEC8519F5A8A3002EBD14 /* brick_servo.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2019F5A8A3002EBD14 /* brick_servo.c */; };
+		650BEC8619F5A8A3002EBD14 /* brick_servo.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2019F5A8A3002EBD14 /* brick_servo.c */; };
+		650BEC8719F5A8A3002EBD14 /* brick_stepper.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2219F5A8A3002EBD14 /* brick_stepper.c */; };
+		650BEC8819F5A8A3002EBD14 /* brick_stepper.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2219F5A8A3002EBD14 /* brick_stepper.c */; };
+		650BEC8919F5A8A3002EBD14 /* bricklet_ambient_light.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2419F5A8A3002EBD14 /* bricklet_ambient_light.c */; };
+		650BEC8A19F5A8A3002EBD14 /* bricklet_ambient_light.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2419F5A8A3002EBD14 /* bricklet_ambient_light.c */; };
+		650BEC8B19F5A8A3002EBD14 /* bricklet_analog_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2619F5A8A3002EBD14 /* bricklet_analog_in.c */; };
+		650BEC8C19F5A8A3002EBD14 /* bricklet_analog_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2619F5A8A3002EBD14 /* bricklet_analog_in.c */; };
+		650BEC8D19F5A8A3002EBD14 /* bricklet_analog_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2819F5A8A3002EBD14 /* bricklet_analog_out.c */; };
+		650BEC8E19F5A8A3002EBD14 /* bricklet_analog_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2819F5A8A3002EBD14 /* bricklet_analog_out.c */; };
+		650BEC8F19F5A8A3002EBD14 /* bricklet_barometer.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2A19F5A8A3002EBD14 /* bricklet_barometer.c */; };
+		650BEC9019F5A8A3002EBD14 /* bricklet_barometer.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2A19F5A8A3002EBD14 /* bricklet_barometer.c */; };
+		650BEC9119F5A8A3002EBD14 /* bricklet_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2C19F5A8A3002EBD14 /* bricklet_color.c */; };
+		650BEC9219F5A8A3002EBD14 /* bricklet_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2C19F5A8A3002EBD14 /* bricklet_color.c */; };
+		650BEC9319F5A8A3002EBD14 /* bricklet_current12.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2E19F5A8A3002EBD14 /* bricklet_current12.c */; };
+		650BEC9419F5A8A3002EBD14 /* bricklet_current12.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC2E19F5A8A3002EBD14 /* bricklet_current12.c */; };
+		650BEC9519F5A8A3002EBD14 /* bricklet_current25.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3019F5A8A3002EBD14 /* bricklet_current25.c */; };
+		650BEC9619F5A8A3002EBD14 /* bricklet_current25.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3019F5A8A3002EBD14 /* bricklet_current25.c */; };
+		650BEC9719F5A8A3002EBD14 /* bricklet_distance_ir.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3219F5A8A3002EBD14 /* bricklet_distance_ir.c */; };
+		650BEC9819F5A8A3002EBD14 /* bricklet_distance_ir.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3219F5A8A3002EBD14 /* bricklet_distance_ir.c */; };
+		650BEC9919F5A8A3002EBD14 /* bricklet_distance_us.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3419F5A8A3002EBD14 /* bricklet_distance_us.c */; };
+		650BEC9A19F5A8A3002EBD14 /* bricklet_distance_us.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3419F5A8A3002EBD14 /* bricklet_distance_us.c */; };
+		650BEC9B19F5A8A3002EBD14 /* bricklet_dual_button.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3619F5A8A3002EBD14 /* bricklet_dual_button.c */; };
+		650BEC9C19F5A8A3002EBD14 /* bricklet_dual_button.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3619F5A8A3002EBD14 /* bricklet_dual_button.c */; };
+		650BEC9D19F5A8A3002EBD14 /* bricklet_dual_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3819F5A8A3002EBD14 /* bricklet_dual_relay.c */; };
+		650BEC9E19F5A8A3002EBD14 /* bricklet_dual_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3819F5A8A3002EBD14 /* bricklet_dual_relay.c */; };
+		650BEC9F19F5A8A3002EBD14 /* bricklet_gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3A19F5A8A3002EBD14 /* bricklet_gps.c */; };
+		650BECA019F5A8A3002EBD14 /* bricklet_gps.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3A19F5A8A3002EBD14 /* bricklet_gps.c */; };
+		650BECA119F5A8A3002EBD14 /* bricklet_hall_effect.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3C19F5A8A3002EBD14 /* bricklet_hall_effect.c */; };
+		650BECA219F5A8A3002EBD14 /* bricklet_hall_effect.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3C19F5A8A3002EBD14 /* bricklet_hall_effect.c */; };
+		650BECA319F5A8A3002EBD14 /* bricklet_humidity.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3E19F5A8A3002EBD14 /* bricklet_humidity.c */; };
+		650BECA419F5A8A3002EBD14 /* bricklet_humidity.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC3E19F5A8A3002EBD14 /* bricklet_humidity.c */; };
+		650BECA519F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4019F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c */; };
+		650BECA619F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4019F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c */; };
+		650BECA719F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4219F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c */; };
+		650BECA819F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4219F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c */; };
+		650BECA919F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4419F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c */; };
+		650BECAA19F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4419F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c */; };
+		650BECAB19F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4619F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c */; };
+		650BECAC19F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4619F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c */; };
+		650BECAD19F5A8A3002EBD14 /* bricklet_io4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4819F5A8A3002EBD14 /* bricklet_io4.c */; };
+		650BECAE19F5A8A3002EBD14 /* bricklet_io4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4819F5A8A3002EBD14 /* bricklet_io4.c */; };
+		650BECAF19F5A8A3002EBD14 /* bricklet_io16.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4A19F5A8A3002EBD14 /* bricklet_io16.c */; };
+		650BECB019F5A8A3002EBD14 /* bricklet_io16.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4A19F5A8A3002EBD14 /* bricklet_io16.c */; };
+		650BECB119F5A8A3002EBD14 /* bricklet_joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4C19F5A8A3002EBD14 /* bricklet_joystick.c */; };
+		650BECB219F5A8A3002EBD14 /* bricklet_joystick.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4C19F5A8A3002EBD14 /* bricklet_joystick.c */; };
+		650BECB319F5A8A3002EBD14 /* bricklet_lcd_16x2.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4E19F5A8A3002EBD14 /* bricklet_lcd_16x2.c */; };
+		650BECB419F5A8A3002EBD14 /* bricklet_lcd_16x2.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC4E19F5A8A3002EBD14 /* bricklet_lcd_16x2.c */; };
+		650BECB519F5A8A3002EBD14 /* bricklet_lcd_20x4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5019F5A8A3002EBD14 /* bricklet_lcd_20x4.c */; };
+		650BECB619F5A8A3002EBD14 /* bricklet_lcd_20x4.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5019F5A8A3002EBD14 /* bricklet_lcd_20x4.c */; };
+		650BECB719F5A8A3002EBD14 /* bricklet_led_strip.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5219F5A8A3002EBD14 /* bricklet_led_strip.c */; };
+		650BECB819F5A8A3002EBD14 /* bricklet_led_strip.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5219F5A8A3002EBD14 /* bricklet_led_strip.c */; };
+		650BECB919F5A8A3002EBD14 /* bricklet_line.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5419F5A8A3002EBD14 /* bricklet_line.c */; };
+		650BECBA19F5A8A3002EBD14 /* bricklet_line.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5419F5A8A3002EBD14 /* bricklet_line.c */; };
+		650BECBB19F5A8A3002EBD14 /* bricklet_linear_poti.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5619F5A8A3002EBD14 /* bricklet_linear_poti.c */; };
+		650BECBC19F5A8A3002EBD14 /* bricklet_linear_poti.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5619F5A8A3002EBD14 /* bricklet_linear_poti.c */; };
+		650BECBD19F5A8A3002EBD14 /* bricklet_moisture.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5819F5A8A3002EBD14 /* bricklet_moisture.c */; };
+		650BECBE19F5A8A3002EBD14 /* bricklet_moisture.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5819F5A8A3002EBD14 /* bricklet_moisture.c */; };
+		650BECBF19F5A8A3002EBD14 /* bricklet_motion_detector.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5A19F5A8A3002EBD14 /* bricklet_motion_detector.c */; };
+		650BECC019F5A8A3002EBD14 /* bricklet_motion_detector.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5A19F5A8A3002EBD14 /* bricklet_motion_detector.c */; };
+		650BECC119F5A8A3002EBD14 /* bricklet_multi_touch.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5C19F5A8A3002EBD14 /* bricklet_multi_touch.c */; };
+		650BECC219F5A8A3002EBD14 /* bricklet_multi_touch.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5C19F5A8A3002EBD14 /* bricklet_multi_touch.c */; };
+		650BECC319F5A8A3002EBD14 /* bricklet_nfc_rfid.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5E19F5A8A3002EBD14 /* bricklet_nfc_rfid.c */; };
+		650BECC419F5A8A3002EBD14 /* bricklet_nfc_rfid.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC5E19F5A8A3002EBD14 /* bricklet_nfc_rfid.c */; };
+		650BECC519F5A8A3002EBD14 /* bricklet_piezo_buzzer.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6019F5A8A3002EBD14 /* bricklet_piezo_buzzer.c */; };
+		650BECC619F5A8A3002EBD14 /* bricklet_piezo_buzzer.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6019F5A8A3002EBD14 /* bricklet_piezo_buzzer.c */; };
+		650BECC719F5A8A3002EBD14 /* bricklet_piezo_speaker.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6219F5A8A3002EBD14 /* bricklet_piezo_speaker.c */; };
+		650BECC819F5A8A3002EBD14 /* bricklet_piezo_speaker.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6219F5A8A3002EBD14 /* bricklet_piezo_speaker.c */; };
+		650BECC919F5A8A3002EBD14 /* bricklet_ptc.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6419F5A8A3002EBD14 /* bricklet_ptc.c */; };
+		650BECCA19F5A8A3002EBD14 /* bricklet_ptc.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6419F5A8A3002EBD14 /* bricklet_ptc.c */; };
+		650BECCB19F5A8A3002EBD14 /* bricklet_remote_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6619F5A8A3002EBD14 /* bricklet_remote_switch.c */; };
+		650BECCC19F5A8A3002EBD14 /* bricklet_remote_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6619F5A8A3002EBD14 /* bricklet_remote_switch.c */; };
+		650BECCD19F5A8A3002EBD14 /* bricklet_rotary_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6819F5A8A3002EBD14 /* bricklet_rotary_encoder.c */; };
+		650BECCE19F5A8A3002EBD14 /* bricklet_rotary_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6819F5A8A3002EBD14 /* bricklet_rotary_encoder.c */; };
+		650BECCF19F5A8A3002EBD14 /* bricklet_rotary_poti.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6A19F5A8A3002EBD14 /* bricklet_rotary_poti.c */; };
+		650BECD019F5A8A3002EBD14 /* bricklet_rotary_poti.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6A19F5A8A3002EBD14 /* bricklet_rotary_poti.c */; };
+		650BECD119F5A8A3002EBD14 /* bricklet_segment_display_4x7.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6C19F5A8A3002EBD14 /* bricklet_segment_display_4x7.c */; };
+		650BECD219F5A8A3002EBD14 /* bricklet_segment_display_4x7.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6C19F5A8A3002EBD14 /* bricklet_segment_display_4x7.c */; };
+		650BECD319F5A8A3002EBD14 /* bricklet_solid_state_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6E19F5A8A3002EBD14 /* bricklet_solid_state_relay.c */; };
+		650BECD419F5A8A3002EBD14 /* bricklet_solid_state_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC6E19F5A8A3002EBD14 /* bricklet_solid_state_relay.c */; };
+		650BECD519F5A8A3002EBD14 /* bricklet_sound_intensity.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7019F5A8A3002EBD14 /* bricklet_sound_intensity.c */; };
+		650BECD619F5A8A3002EBD14 /* bricklet_sound_intensity.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7019F5A8A3002EBD14 /* bricklet_sound_intensity.c */; };
+		650BECD719F5A8A3002EBD14 /* bricklet_temperature_ir.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7219F5A8A3002EBD14 /* bricklet_temperature_ir.c */; };
+		650BECD819F5A8A3002EBD14 /* bricklet_temperature_ir.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7219F5A8A3002EBD14 /* bricklet_temperature_ir.c */; };
+		650BECD919F5A8A3002EBD14 /* bricklet_temperature.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7419F5A8A3002EBD14 /* bricklet_temperature.c */; };
+		650BECDA19F5A8A3002EBD14 /* bricklet_temperature.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7419F5A8A3002EBD14 /* bricklet_temperature.c */; };
+		650BECDB19F5A8A3002EBD14 /* bricklet_tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7619F5A8A3002EBD14 /* bricklet_tilt.c */; };
+		650BECDC19F5A8A3002EBD14 /* bricklet_tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7619F5A8A3002EBD14 /* bricklet_tilt.c */; };
+		650BECDD19F5A8A3002EBD14 /* bricklet_voltage_current.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7819F5A8A3002EBD14 /* bricklet_voltage_current.c */; };
+		650BECDE19F5A8A3002EBD14 /* bricklet_voltage_current.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7819F5A8A3002EBD14 /* bricklet_voltage_current.c */; };
+		650BECDF19F5A8A3002EBD14 /* bricklet_voltage.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7A19F5A8A3002EBD14 /* bricklet_voltage.c */; };
+		650BECE019F5A8A3002EBD14 /* bricklet_voltage.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7A19F5A8A3002EBD14 /* bricklet_voltage.c */; };
+		650BECE119F5A8A3002EBD14 /* ip_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7C19F5A8A3002EBD14 /* ip_connection.c */; };
+		650BECE219F5A8A3002EBD14 /* ip_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7C19F5A8A3002EBD14 /* ip_connection.c */; };
+		650BECE319F5A8A3002EBD14 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7E19F5A8A3002EBD14 /* Makefile */; };
+		650BECE419F5A8A3002EBD14 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 650BEC7E19F5A8A3002EBD14 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +142,107 @@
 		650BEC0919F5A87D002EBD14 /* RackTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RackTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		650BEC0E19F5A87D002EBD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650BEC0F19F5A87D002EBD14 /* RackTempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RackTempTests.m; sourceTree = "<group>"; };
+		650BEC1A19F5A8A3002EBD14 /* brick_dc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brick_dc.c; sourceTree = "<group>"; };
+		650BEC1B19F5A8A3002EBD14 /* brick_dc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brick_dc.h; sourceTree = "<group>"; };
+		650BEC1C19F5A8A3002EBD14 /* brick_imu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brick_imu.c; sourceTree = "<group>"; };
+		650BEC1D19F5A8A3002EBD14 /* brick_imu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brick_imu.h; sourceTree = "<group>"; };
+		650BEC1E19F5A8A3002EBD14 /* brick_master.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brick_master.c; sourceTree = "<group>"; };
+		650BEC1F19F5A8A3002EBD14 /* brick_master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brick_master.h; sourceTree = "<group>"; };
+		650BEC2019F5A8A3002EBD14 /* brick_servo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brick_servo.c; sourceTree = "<group>"; };
+		650BEC2119F5A8A3002EBD14 /* brick_servo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brick_servo.h; sourceTree = "<group>"; };
+		650BEC2219F5A8A3002EBD14 /* brick_stepper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brick_stepper.c; sourceTree = "<group>"; };
+		650BEC2319F5A8A3002EBD14 /* brick_stepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brick_stepper.h; sourceTree = "<group>"; };
+		650BEC2419F5A8A3002EBD14 /* bricklet_ambient_light.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_ambient_light.c; sourceTree = "<group>"; };
+		650BEC2519F5A8A3002EBD14 /* bricklet_ambient_light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_ambient_light.h; sourceTree = "<group>"; };
+		650BEC2619F5A8A3002EBD14 /* bricklet_analog_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_analog_in.c; sourceTree = "<group>"; };
+		650BEC2719F5A8A3002EBD14 /* bricklet_analog_in.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_analog_in.h; sourceTree = "<group>"; };
+		650BEC2819F5A8A3002EBD14 /* bricklet_analog_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_analog_out.c; sourceTree = "<group>"; };
+		650BEC2919F5A8A3002EBD14 /* bricklet_analog_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_analog_out.h; sourceTree = "<group>"; };
+		650BEC2A19F5A8A3002EBD14 /* bricklet_barometer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_barometer.c; sourceTree = "<group>"; };
+		650BEC2B19F5A8A3002EBD14 /* bricklet_barometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_barometer.h; sourceTree = "<group>"; };
+		650BEC2C19F5A8A3002EBD14 /* bricklet_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_color.c; sourceTree = "<group>"; };
+		650BEC2D19F5A8A3002EBD14 /* bricklet_color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_color.h; sourceTree = "<group>"; };
+		650BEC2E19F5A8A3002EBD14 /* bricklet_current12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_current12.c; sourceTree = "<group>"; };
+		650BEC2F19F5A8A3002EBD14 /* bricklet_current12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_current12.h; sourceTree = "<group>"; };
+		650BEC3019F5A8A3002EBD14 /* bricklet_current25.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_current25.c; sourceTree = "<group>"; };
+		650BEC3119F5A8A3002EBD14 /* bricklet_current25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_current25.h; sourceTree = "<group>"; };
+		650BEC3219F5A8A3002EBD14 /* bricklet_distance_ir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_distance_ir.c; sourceTree = "<group>"; };
+		650BEC3319F5A8A3002EBD14 /* bricklet_distance_ir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_distance_ir.h; sourceTree = "<group>"; };
+		650BEC3419F5A8A3002EBD14 /* bricklet_distance_us.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_distance_us.c; sourceTree = "<group>"; };
+		650BEC3519F5A8A3002EBD14 /* bricklet_distance_us.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_distance_us.h; sourceTree = "<group>"; };
+		650BEC3619F5A8A3002EBD14 /* bricklet_dual_button.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_dual_button.c; sourceTree = "<group>"; };
+		650BEC3719F5A8A3002EBD14 /* bricklet_dual_button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_dual_button.h; sourceTree = "<group>"; };
+		650BEC3819F5A8A3002EBD14 /* bricklet_dual_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_dual_relay.c; sourceTree = "<group>"; };
+		650BEC3919F5A8A3002EBD14 /* bricklet_dual_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_dual_relay.h; sourceTree = "<group>"; };
+		650BEC3A19F5A8A3002EBD14 /* bricklet_gps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_gps.c; sourceTree = "<group>"; };
+		650BEC3B19F5A8A3002EBD14 /* bricklet_gps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_gps.h; sourceTree = "<group>"; };
+		650BEC3C19F5A8A3002EBD14 /* bricklet_hall_effect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_hall_effect.c; sourceTree = "<group>"; };
+		650BEC3D19F5A8A3002EBD14 /* bricklet_hall_effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_hall_effect.h; sourceTree = "<group>"; };
+		650BEC3E19F5A8A3002EBD14 /* bricklet_humidity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_humidity.c; sourceTree = "<group>"; };
+		650BEC3F19F5A8A3002EBD14 /* bricklet_humidity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_humidity.h; sourceTree = "<group>"; };
+		650BEC4019F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_industrial_digital_in_4.c; sourceTree = "<group>"; };
+		650BEC4119F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_industrial_digital_in_4.h; sourceTree = "<group>"; };
+		650BEC4219F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_industrial_digital_out_4.c; sourceTree = "<group>"; };
+		650BEC4319F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_industrial_digital_out_4.h; sourceTree = "<group>"; };
+		650BEC4419F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_industrial_dual_0_20ma.c; sourceTree = "<group>"; };
+		650BEC4519F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_industrial_dual_0_20ma.h; sourceTree = "<group>"; };
+		650BEC4619F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_industrial_quad_relay.c; sourceTree = "<group>"; };
+		650BEC4719F5A8A3002EBD14 /* bricklet_industrial_quad_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_industrial_quad_relay.h; sourceTree = "<group>"; };
+		650BEC4819F5A8A3002EBD14 /* bricklet_io4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_io4.c; sourceTree = "<group>"; };
+		650BEC4919F5A8A3002EBD14 /* bricklet_io4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_io4.h; sourceTree = "<group>"; };
+		650BEC4A19F5A8A3002EBD14 /* bricklet_io16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_io16.c; sourceTree = "<group>"; };
+		650BEC4B19F5A8A3002EBD14 /* bricklet_io16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_io16.h; sourceTree = "<group>"; };
+		650BEC4C19F5A8A3002EBD14 /* bricklet_joystick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_joystick.c; sourceTree = "<group>"; };
+		650BEC4D19F5A8A3002EBD14 /* bricklet_joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_joystick.h; sourceTree = "<group>"; };
+		650BEC4E19F5A8A3002EBD14 /* bricklet_lcd_16x2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_lcd_16x2.c; sourceTree = "<group>"; };
+		650BEC4F19F5A8A3002EBD14 /* bricklet_lcd_16x2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_lcd_16x2.h; sourceTree = "<group>"; };
+		650BEC5019F5A8A3002EBD14 /* bricklet_lcd_20x4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_lcd_20x4.c; sourceTree = "<group>"; };
+		650BEC5119F5A8A3002EBD14 /* bricklet_lcd_20x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_lcd_20x4.h; sourceTree = "<group>"; };
+		650BEC5219F5A8A3002EBD14 /* bricklet_led_strip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_led_strip.c; sourceTree = "<group>"; };
+		650BEC5319F5A8A3002EBD14 /* bricklet_led_strip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_led_strip.h; sourceTree = "<group>"; };
+		650BEC5419F5A8A3002EBD14 /* bricklet_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_line.c; sourceTree = "<group>"; };
+		650BEC5519F5A8A3002EBD14 /* bricklet_line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_line.h; sourceTree = "<group>"; };
+		650BEC5619F5A8A3002EBD14 /* bricklet_linear_poti.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_linear_poti.c; sourceTree = "<group>"; };
+		650BEC5719F5A8A3002EBD14 /* bricklet_linear_poti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_linear_poti.h; sourceTree = "<group>"; };
+		650BEC5819F5A8A3002EBD14 /* bricklet_moisture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_moisture.c; sourceTree = "<group>"; };
+		650BEC5919F5A8A3002EBD14 /* bricklet_moisture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_moisture.h; sourceTree = "<group>"; };
+		650BEC5A19F5A8A3002EBD14 /* bricklet_motion_detector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_motion_detector.c; sourceTree = "<group>"; };
+		650BEC5B19F5A8A3002EBD14 /* bricklet_motion_detector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_motion_detector.h; sourceTree = "<group>"; };
+		650BEC5C19F5A8A3002EBD14 /* bricklet_multi_touch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_multi_touch.c; sourceTree = "<group>"; };
+		650BEC5D19F5A8A3002EBD14 /* bricklet_multi_touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_multi_touch.h; sourceTree = "<group>"; };
+		650BEC5E19F5A8A3002EBD14 /* bricklet_nfc_rfid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_nfc_rfid.c; sourceTree = "<group>"; };
+		650BEC5F19F5A8A3002EBD14 /* bricklet_nfc_rfid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_nfc_rfid.h; sourceTree = "<group>"; };
+		650BEC6019F5A8A3002EBD14 /* bricklet_piezo_buzzer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_piezo_buzzer.c; sourceTree = "<group>"; };
+		650BEC6119F5A8A3002EBD14 /* bricklet_piezo_buzzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_piezo_buzzer.h; sourceTree = "<group>"; };
+		650BEC6219F5A8A3002EBD14 /* bricklet_piezo_speaker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_piezo_speaker.c; sourceTree = "<group>"; };
+		650BEC6319F5A8A3002EBD14 /* bricklet_piezo_speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_piezo_speaker.h; sourceTree = "<group>"; };
+		650BEC6419F5A8A3002EBD14 /* bricklet_ptc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_ptc.c; sourceTree = "<group>"; };
+		650BEC6519F5A8A3002EBD14 /* bricklet_ptc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_ptc.h; sourceTree = "<group>"; };
+		650BEC6619F5A8A3002EBD14 /* bricklet_remote_switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_remote_switch.c; sourceTree = "<group>"; };
+		650BEC6719F5A8A3002EBD14 /* bricklet_remote_switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_remote_switch.h; sourceTree = "<group>"; };
+		650BEC6819F5A8A3002EBD14 /* bricklet_rotary_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_rotary_encoder.c; sourceTree = "<group>"; };
+		650BEC6919F5A8A3002EBD14 /* bricklet_rotary_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_rotary_encoder.h; sourceTree = "<group>"; };
+		650BEC6A19F5A8A3002EBD14 /* bricklet_rotary_poti.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_rotary_poti.c; sourceTree = "<group>"; };
+		650BEC6B19F5A8A3002EBD14 /* bricklet_rotary_poti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_rotary_poti.h; sourceTree = "<group>"; };
+		650BEC6C19F5A8A3002EBD14 /* bricklet_segment_display_4x7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_segment_display_4x7.c; sourceTree = "<group>"; };
+		650BEC6D19F5A8A3002EBD14 /* bricklet_segment_display_4x7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_segment_display_4x7.h; sourceTree = "<group>"; };
+		650BEC6E19F5A8A3002EBD14 /* bricklet_solid_state_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_solid_state_relay.c; sourceTree = "<group>"; };
+		650BEC6F19F5A8A3002EBD14 /* bricklet_solid_state_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_solid_state_relay.h; sourceTree = "<group>"; };
+		650BEC7019F5A8A3002EBD14 /* bricklet_sound_intensity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_sound_intensity.c; sourceTree = "<group>"; };
+		650BEC7119F5A8A3002EBD14 /* bricklet_sound_intensity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_sound_intensity.h; sourceTree = "<group>"; };
+		650BEC7219F5A8A3002EBD14 /* bricklet_temperature_ir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_temperature_ir.c; sourceTree = "<group>"; };
+		650BEC7319F5A8A3002EBD14 /* bricklet_temperature_ir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_temperature_ir.h; sourceTree = "<group>"; };
+		650BEC7419F5A8A3002EBD14 /* bricklet_temperature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_temperature.c; sourceTree = "<group>"; };
+		650BEC7519F5A8A3002EBD14 /* bricklet_temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_temperature.h; sourceTree = "<group>"; };
+		650BEC7619F5A8A3002EBD14 /* bricklet_tilt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_tilt.c; sourceTree = "<group>"; };
+		650BEC7719F5A8A3002EBD14 /* bricklet_tilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_tilt.h; sourceTree = "<group>"; };
+		650BEC7819F5A8A3002EBD14 /* bricklet_voltage_current.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_voltage_current.c; sourceTree = "<group>"; };
+		650BEC7919F5A8A3002EBD14 /* bricklet_voltage_current.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_voltage_current.h; sourceTree = "<group>"; };
+		650BEC7A19F5A8A3002EBD14 /* bricklet_voltage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bricklet_voltage.c; sourceTree = "<group>"; };
+		650BEC7B19F5A8A3002EBD14 /* bricklet_voltage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bricklet_voltage.h; sourceTree = "<group>"; };
+		650BEC7C19F5A8A3002EBD14 /* ip_connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ip_connection.c; sourceTree = "<group>"; };
+		650BEC7D19F5A8A3002EBD14 /* ip_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ip_connection.h; sourceTree = "<group>"; };
+		650BEC7E19F5A8A3002EBD14 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +284,7 @@
 		650BEBF219F5A87D002EBD14 /* RackTemp */ = {
 			isa = PBXGroup;
 			children = (
+				650BEC1919F5A890002EBD14 /* Bindings */,
 				650BEBF719F5A87D002EBD14 /* AppDelegate.h */,
 				650BEBF819F5A87D002EBD14 /* AppDelegate.m */,
 				650BEBFA19F5A87D002EBD14 /* ViewController.h */,
@@ -117,6 +321,114 @@
 				650BEC0E19F5A87D002EBD14 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		650BEC1919F5A890002EBD14 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				650BEC1A19F5A8A3002EBD14 /* brick_dc.c */,
+				650BEC1B19F5A8A3002EBD14 /* brick_dc.h */,
+				650BEC1C19F5A8A3002EBD14 /* brick_imu.c */,
+				650BEC1D19F5A8A3002EBD14 /* brick_imu.h */,
+				650BEC1E19F5A8A3002EBD14 /* brick_master.c */,
+				650BEC1F19F5A8A3002EBD14 /* brick_master.h */,
+				650BEC2019F5A8A3002EBD14 /* brick_servo.c */,
+				650BEC2119F5A8A3002EBD14 /* brick_servo.h */,
+				650BEC2219F5A8A3002EBD14 /* brick_stepper.c */,
+				650BEC2319F5A8A3002EBD14 /* brick_stepper.h */,
+				650BEC2419F5A8A3002EBD14 /* bricklet_ambient_light.c */,
+				650BEC2519F5A8A3002EBD14 /* bricklet_ambient_light.h */,
+				650BEC2619F5A8A3002EBD14 /* bricklet_analog_in.c */,
+				650BEC2719F5A8A3002EBD14 /* bricklet_analog_in.h */,
+				650BEC2819F5A8A3002EBD14 /* bricklet_analog_out.c */,
+				650BEC2919F5A8A3002EBD14 /* bricklet_analog_out.h */,
+				650BEC2A19F5A8A3002EBD14 /* bricklet_barometer.c */,
+				650BEC2B19F5A8A3002EBD14 /* bricklet_barometer.h */,
+				650BEC2C19F5A8A3002EBD14 /* bricklet_color.c */,
+				650BEC2D19F5A8A3002EBD14 /* bricklet_color.h */,
+				650BEC2E19F5A8A3002EBD14 /* bricklet_current12.c */,
+				650BEC2F19F5A8A3002EBD14 /* bricklet_current12.h */,
+				650BEC3019F5A8A3002EBD14 /* bricklet_current25.c */,
+				650BEC3119F5A8A3002EBD14 /* bricklet_current25.h */,
+				650BEC3219F5A8A3002EBD14 /* bricklet_distance_ir.c */,
+				650BEC3319F5A8A3002EBD14 /* bricklet_distance_ir.h */,
+				650BEC3419F5A8A3002EBD14 /* bricklet_distance_us.c */,
+				650BEC3519F5A8A3002EBD14 /* bricklet_distance_us.h */,
+				650BEC3619F5A8A3002EBD14 /* bricklet_dual_button.c */,
+				650BEC3719F5A8A3002EBD14 /* bricklet_dual_button.h */,
+				650BEC3819F5A8A3002EBD14 /* bricklet_dual_relay.c */,
+				650BEC3919F5A8A3002EBD14 /* bricklet_dual_relay.h */,
+				650BEC3A19F5A8A3002EBD14 /* bricklet_gps.c */,
+				650BEC3B19F5A8A3002EBD14 /* bricklet_gps.h */,
+				650BEC3C19F5A8A3002EBD14 /* bricklet_hall_effect.c */,
+				650BEC3D19F5A8A3002EBD14 /* bricklet_hall_effect.h */,
+				650BEC3E19F5A8A3002EBD14 /* bricklet_humidity.c */,
+				650BEC3F19F5A8A3002EBD14 /* bricklet_humidity.h */,
+				650BEC4019F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c */,
+				650BEC4119F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.h */,
+				650BEC4219F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c */,
+				650BEC4319F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.h */,
+				650BEC4419F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c */,
+				650BEC4519F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.h */,
+				650BEC4619F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c */,
+				650BEC4719F5A8A3002EBD14 /* bricklet_industrial_quad_relay.h */,
+				650BEC4819F5A8A3002EBD14 /* bricklet_io4.c */,
+				650BEC4919F5A8A3002EBD14 /* bricklet_io4.h */,
+				650BEC4A19F5A8A3002EBD14 /* bricklet_io16.c */,
+				650BEC4B19F5A8A3002EBD14 /* bricklet_io16.h */,
+				650BEC4C19F5A8A3002EBD14 /* bricklet_joystick.c */,
+				650BEC4D19F5A8A3002EBD14 /* bricklet_joystick.h */,
+				650BEC4E19F5A8A3002EBD14 /* bricklet_lcd_16x2.c */,
+				650BEC4F19F5A8A3002EBD14 /* bricklet_lcd_16x2.h */,
+				650BEC5019F5A8A3002EBD14 /* bricklet_lcd_20x4.c */,
+				650BEC5119F5A8A3002EBD14 /* bricklet_lcd_20x4.h */,
+				650BEC5219F5A8A3002EBD14 /* bricklet_led_strip.c */,
+				650BEC5319F5A8A3002EBD14 /* bricklet_led_strip.h */,
+				650BEC5419F5A8A3002EBD14 /* bricklet_line.c */,
+				650BEC5519F5A8A3002EBD14 /* bricklet_line.h */,
+				650BEC5619F5A8A3002EBD14 /* bricklet_linear_poti.c */,
+				650BEC5719F5A8A3002EBD14 /* bricklet_linear_poti.h */,
+				650BEC5819F5A8A3002EBD14 /* bricklet_moisture.c */,
+				650BEC5919F5A8A3002EBD14 /* bricklet_moisture.h */,
+				650BEC5A19F5A8A3002EBD14 /* bricklet_motion_detector.c */,
+				650BEC5B19F5A8A3002EBD14 /* bricklet_motion_detector.h */,
+				650BEC5C19F5A8A3002EBD14 /* bricklet_multi_touch.c */,
+				650BEC5D19F5A8A3002EBD14 /* bricklet_multi_touch.h */,
+				650BEC5E19F5A8A3002EBD14 /* bricklet_nfc_rfid.c */,
+				650BEC5F19F5A8A3002EBD14 /* bricklet_nfc_rfid.h */,
+				650BEC6019F5A8A3002EBD14 /* bricklet_piezo_buzzer.c */,
+				650BEC6119F5A8A3002EBD14 /* bricklet_piezo_buzzer.h */,
+				650BEC6219F5A8A3002EBD14 /* bricklet_piezo_speaker.c */,
+				650BEC6319F5A8A3002EBD14 /* bricklet_piezo_speaker.h */,
+				650BEC6419F5A8A3002EBD14 /* bricklet_ptc.c */,
+				650BEC6519F5A8A3002EBD14 /* bricklet_ptc.h */,
+				650BEC6619F5A8A3002EBD14 /* bricklet_remote_switch.c */,
+				650BEC6719F5A8A3002EBD14 /* bricklet_remote_switch.h */,
+				650BEC6819F5A8A3002EBD14 /* bricklet_rotary_encoder.c */,
+				650BEC6919F5A8A3002EBD14 /* bricklet_rotary_encoder.h */,
+				650BEC6A19F5A8A3002EBD14 /* bricklet_rotary_poti.c */,
+				650BEC6B19F5A8A3002EBD14 /* bricklet_rotary_poti.h */,
+				650BEC6C19F5A8A3002EBD14 /* bricklet_segment_display_4x7.c */,
+				650BEC6D19F5A8A3002EBD14 /* bricklet_segment_display_4x7.h */,
+				650BEC6E19F5A8A3002EBD14 /* bricklet_solid_state_relay.c */,
+				650BEC6F19F5A8A3002EBD14 /* bricklet_solid_state_relay.h */,
+				650BEC7019F5A8A3002EBD14 /* bricklet_sound_intensity.c */,
+				650BEC7119F5A8A3002EBD14 /* bricklet_sound_intensity.h */,
+				650BEC7219F5A8A3002EBD14 /* bricklet_temperature_ir.c */,
+				650BEC7319F5A8A3002EBD14 /* bricklet_temperature_ir.h */,
+				650BEC7419F5A8A3002EBD14 /* bricklet_temperature.c */,
+				650BEC7519F5A8A3002EBD14 /* bricklet_temperature.h */,
+				650BEC7619F5A8A3002EBD14 /* bricklet_tilt.c */,
+				650BEC7719F5A8A3002EBD14 /* bricklet_tilt.h */,
+				650BEC7819F5A8A3002EBD14 /* bricklet_voltage_current.c */,
+				650BEC7919F5A8A3002EBD14 /* bricklet_voltage_current.h */,
+				650BEC7A19F5A8A3002EBD14 /* bricklet_voltage.c */,
+				650BEC7B19F5A8A3002EBD14 /* bricklet_voltage.h */,
+				650BEC7C19F5A8A3002EBD14 /* ip_connection.c */,
+				650BEC7D19F5A8A3002EBD14 /* ip_connection.h */,
+				650BEC7E19F5A8A3002EBD14 /* Makefile */,
+			);
+			name = Bindings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +531,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650BEC8D19F5A8A3002EBD14 /* bricklet_analog_out.c in Sources */,
+				650BECD719F5A8A3002EBD14 /* bricklet_temperature_ir.c in Sources */,
+				650BEC8B19F5A8A3002EBD14 /* bricklet_analog_in.c in Sources */,
+				650BECBB19F5A8A3002EBD14 /* bricklet_linear_poti.c in Sources */,
+				650BECDF19F5A8A3002EBD14 /* bricklet_voltage.c in Sources */,
+				650BECDB19F5A8A3002EBD14 /* bricklet_tilt.c in Sources */,
+				650BECD519F5A8A3002EBD14 /* bricklet_sound_intensity.c in Sources */,
+				650BECA519F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c in Sources */,
+				650BEC7F19F5A8A3002EBD14 /* brick_dc.c in Sources */,
+				650BEC8519F5A8A3002EBD14 /* brick_servo.c in Sources */,
+				650BEC9F19F5A8A3002EBD14 /* bricklet_gps.c in Sources */,
+				650BEC9319F5A8A3002EBD14 /* bricklet_current12.c in Sources */,
+				650BECAD19F5A8A3002EBD14 /* bricklet_io4.c in Sources */,
+				650BEC8919F5A8A3002EBD14 /* bricklet_ambient_light.c in Sources */,
 				650BEBFC19F5A87D002EBD14 /* ViewController.m in Sources */,
+				650BECB519F5A8A3002EBD14 /* bricklet_lcd_20x4.c in Sources */,
+				650BECE119F5A8A3002EBD14 /* ip_connection.c in Sources */,
+				650BEC9519F5A8A3002EBD14 /* bricklet_current25.c in Sources */,
+				650BECE319F5A8A3002EBD14 /* Makefile in Sources */,
+				650BECCD19F5A8A3002EBD14 /* bricklet_rotary_encoder.c in Sources */,
+				650BECCB19F5A8A3002EBD14 /* bricklet_remote_switch.c in Sources */,
+				650BECC919F5A8A3002EBD14 /* bricklet_ptc.c in Sources */,
+				650BECB919F5A8A3002EBD14 /* bricklet_line.c in Sources */,
+				650BEC9119F5A8A3002EBD14 /* bricklet_color.c in Sources */,
+				650BEC8119F5A8A3002EBD14 /* brick_imu.c in Sources */,
+				650BECA119F5A8A3002EBD14 /* bricklet_hall_effect.c in Sources */,
+				650BECA319F5A8A3002EBD14 /* bricklet_humidity.c in Sources */,
+				650BEC8319F5A8A3002EBD14 /* brick_master.c in Sources */,
+				650BECC119F5A8A3002EBD14 /* bricklet_multi_touch.c in Sources */,
+				650BECD319F5A8A3002EBD14 /* bricklet_solid_state_relay.c in Sources */,
+				650BEC9919F5A8A3002EBD14 /* bricklet_distance_us.c in Sources */,
+				650BEC9D19F5A8A3002EBD14 /* bricklet_dual_relay.c in Sources */,
+				650BECD919F5A8A3002EBD14 /* bricklet_temperature.c in Sources */,
+				650BECC319F5A8A3002EBD14 /* bricklet_nfc_rfid.c in Sources */,
+				650BECCF19F5A8A3002EBD14 /* bricklet_rotary_poti.c in Sources */,
+				650BECA719F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c in Sources */,
+				650BECAB19F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c in Sources */,
+				650BECC719F5A8A3002EBD14 /* bricklet_piezo_speaker.c in Sources */,
+				650BEC9719F5A8A3002EBD14 /* bricklet_distance_ir.c in Sources */,
+				650BECD119F5A8A3002EBD14 /* bricklet_segment_display_4x7.c in Sources */,
+				650BEC9B19F5A8A3002EBD14 /* bricklet_dual_button.c in Sources */,
+				650BECA919F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c in Sources */,
+				650BEC8719F5A8A3002EBD14 /* brick_stepper.c in Sources */,
+				650BECB119F5A8A3002EBD14 /* bricklet_joystick.c in Sources */,
+				650BECB719F5A8A3002EBD14 /* bricklet_led_strip.c in Sources */,
+				650BECC519F5A8A3002EBD14 /* bricklet_piezo_buzzer.c in Sources */,
+				650BECBF19F5A8A3002EBD14 /* bricklet_motion_detector.c in Sources */,
+				650BECDD19F5A8A3002EBD14 /* bricklet_voltage_current.c in Sources */,
+				650BECBD19F5A8A3002EBD14 /* bricklet_moisture.c in Sources */,
+				650BEC8F19F5A8A3002EBD14 /* bricklet_barometer.c in Sources */,
+				650BECB319F5A8A3002EBD14 /* bricklet_lcd_16x2.c in Sources */,
 				650BEBF919F5A87D002EBD14 /* AppDelegate.m in Sources */,
+				650BECAF19F5A8A3002EBD14 /* bricklet_io16.c in Sources */,
 				650BEBF619F5A87D002EBD14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +592,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650BEC9A19F5A8A3002EBD14 /* bricklet_distance_us.c in Sources */,
+				650BECA219F5A8A3002EBD14 /* bricklet_hall_effect.c in Sources */,
+				650BECE219F5A8A3002EBD14 /* ip_connection.c in Sources */,
+				650BECAC19F5A8A3002EBD14 /* bricklet_industrial_quad_relay.c in Sources */,
+				650BECD419F5A8A3002EBD14 /* bricklet_solid_state_relay.c in Sources */,
+				650BEC9219F5A8A3002EBD14 /* bricklet_color.c in Sources */,
+				650BEC8019F5A8A3002EBD14 /* brick_dc.c in Sources */,
+				650BEC8619F5A8A3002EBD14 /* brick_servo.c in Sources */,
+				650BEC9819F5A8A3002EBD14 /* bricklet_distance_ir.c in Sources */,
+				650BEC8419F5A8A3002EBD14 /* brick_master.c in Sources */,
+				650BECE419F5A8A3002EBD14 /* Makefile in Sources */,
+				650BEC9E19F5A8A3002EBD14 /* bricklet_dual_relay.c in Sources */,
+				650BECAE19F5A8A3002EBD14 /* bricklet_io4.c in Sources */,
+				650BECB419F5A8A3002EBD14 /* bricklet_lcd_16x2.c in Sources */,
+				650BECDC19F5A8A3002EBD14 /* bricklet_tilt.c in Sources */,
+				650BECB019F5A8A3002EBD14 /* bricklet_io16.c in Sources */,
+				650BECCA19F5A8A3002EBD14 /* bricklet_ptc.c in Sources */,
+				650BECD219F5A8A3002EBD14 /* bricklet_segment_display_4x7.c in Sources */,
+				650BECCC19F5A8A3002EBD14 /* bricklet_remote_switch.c in Sources */,
+				650BECBC19F5A8A3002EBD14 /* bricklet_linear_poti.c in Sources */,
+				650BECA619F5A8A3002EBD14 /* bricklet_industrial_digital_in_4.c in Sources */,
+				650BECD019F5A8A3002EBD14 /* bricklet_rotary_poti.c in Sources */,
+				650BEC9019F5A8A3002EBD14 /* bricklet_barometer.c in Sources */,
+				650BEC9C19F5A8A3002EBD14 /* bricklet_dual_button.c in Sources */,
+				650BEC9619F5A8A3002EBD14 /* bricklet_current25.c in Sources */,
+				650BECBE19F5A8A3002EBD14 /* bricklet_moisture.c in Sources */,
+				650BECBA19F5A8A3002EBD14 /* bricklet_line.c in Sources */,
+				650BEC8A19F5A8A3002EBD14 /* bricklet_ambient_light.c in Sources */,
+				650BECB619F5A8A3002EBD14 /* bricklet_lcd_20x4.c in Sources */,
+				650BEC9419F5A8A3002EBD14 /* bricklet_current12.c in Sources */,
+				650BEC8C19F5A8A3002EBD14 /* bricklet_analog_in.c in Sources */,
+				650BECB819F5A8A3002EBD14 /* bricklet_led_strip.c in Sources */,
+				650BECE019F5A8A3002EBD14 /* bricklet_voltage.c in Sources */,
+				650BECA819F5A8A3002EBD14 /* bricklet_industrial_digital_out_4.c in Sources */,
 				650BEC1019F5A87D002EBD14 /* RackTempTests.m in Sources */,
+				650BECB219F5A8A3002EBD14 /* bricklet_joystick.c in Sources */,
+				650BECC019F5A8A3002EBD14 /* bricklet_motion_detector.c in Sources */,
+				650BECDE19F5A8A3002EBD14 /* bricklet_voltage_current.c in Sources */,
+				650BEC8219F5A8A3002EBD14 /* brick_imu.c in Sources */,
+				650BECA419F5A8A3002EBD14 /* bricklet_humidity.c in Sources */,
+				650BEC8819F5A8A3002EBD14 /* brick_stepper.c in Sources */,
+				650BECA019F5A8A3002EBD14 /* bricklet_gps.c in Sources */,
+				650BECC219F5A8A3002EBD14 /* bricklet_multi_touch.c in Sources */,
+				650BECAA19F5A8A3002EBD14 /* bricklet_industrial_dual_0_20ma.c in Sources */,
+				650BECC419F5A8A3002EBD14 /* bricklet_nfc_rfid.c in Sources */,
+				650BECD619F5A8A3002EBD14 /* bricklet_sound_intensity.c in Sources */,
+				650BECD819F5A8A3002EBD14 /* bricklet_temperature_ir.c in Sources */,
+				650BECDA19F5A8A3002EBD14 /* bricklet_temperature.c in Sources */,
+				650BECC819F5A8A3002EBD14 /* bricklet_piezo_speaker.c in Sources */,
+				650BECCE19F5A8A3002EBD14 /* bricklet_rotary_encoder.c in Sources */,
+				650BEC8E19F5A8A3002EBD14 /* bricklet_analog_out.c in Sources */,
+				650BECC619F5A8A3002EBD14 /* bricklet_piezo_buzzer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
