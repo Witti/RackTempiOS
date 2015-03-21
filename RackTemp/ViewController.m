@@ -30,7 +30,7 @@
     ipcon_create(&ipcon);
     temperature_create(&temp, "bUq", &ipcon);
     humidity_create(&hum, "a8m", &ipcon);
-    ipcon_connect(&ipcon, "10.0.0.227", 4223);
+    ipcon_connect(&ipcon, "10.0.0.148", 4223);
     
     int16_t temperature;
     uint16_t humidity;
@@ -43,9 +43,6 @@
     
     tempLabel.text = tempString;
     humLabel.text = humString;
-    
-    NSLog(@"temp: %.2f",temperature/100.0);
-    NSLog(@"hum: %.2f",humidity/10.0);
     
     ipcon_destroy(&ipcon);
 }
